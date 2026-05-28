@@ -94,3 +94,4 @@ The application will be available at:
 ![Course Detail](./screenshots/course-detail.png) 
 ![Dashboard](./screenshots/dashboard.png) 
 ![Checkout](./screenshots/checkout.png) 
+s
