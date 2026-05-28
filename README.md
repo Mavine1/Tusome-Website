@@ -90,8 +90,7 @@ The application will be available at:
 
 ## Screenshots
 
-![Home Page](./screenshots/home.png) 
-![Course Detail](./screenshots/course-detail.png) 
-![Dashboard](./screenshots/dashboard.png) 
+![Home Page](https://github.com/Mavine1/Tusome-Website/blob/main/Home.png) 
+![Course Detail](https://github.com/Mavine1/Tusome-Website/blob/main/Courses.png) 
+![Dashboard](https://github.com/Mavine1/Tusome-Website/blob/main/Dashboard.png) 
 ![Checkout](./screenshots/checkout.png) 
-s
