@@ -10,7 +10,7 @@ A MERN application for managing online courses and user subscriptions. Tusome pr
 | **Backend** | Node.js, Express |
 | **Database** | MongoDB with Mongoose ODM |
 | **Authentication** | JWT (JSON Web Tokens) |
-| **Payments** | Stripe integration |
+| **Payments** | Mpesa integration |
 
 ## Features
 
@@ -19,43 +19,6 @@ A MERN application for managing online courses and user subscriptions. Tusome pr
 - **Subscription System**: Subscribe to courses via Stripe checkout
 - **User Dashboard**: Manage profile and view subscriptions
 - **Protected Routes**: Secure access to authenticated areas
-
-## Project Structure
-
-```
-tusome/
-├── backend/
-│   ├── config/          # Database configuration
-│   ├── controllers/     # Request handlers (auth, class, payment, user)
-│   ├── middleware/      # JWT authentication middleware
-│   ├── models/         # Mongoose schemas (Class, Subscription, User)
-│   ├── routes/         # API route definitions
-│   ├── services/        # Business logic layer
-│   ├── server.js       # Express server entry point
-│   ├── seed.js         # Database seeding script
-│   └── .env            # Environment variables
-│
-└── frontend/
-    ├── public/         # Static assets
-    └── src/
-        ├── components/ # Reusable UI components
-        │   ├── CourseCard.jsx
-        │   ├── Footer.jsx
-        │   ├── Navbar.jsx
-        │   └── ProtectedRoute.jsx
-        ├── pages/      # Page components
-        │   ├── Checkout.jsx
-        │   ├── CourseDetail.jsx
-        │   ├── Dashboard.jsx
-        │   ├── Home.jsx
-        │   ├── Login.jsx
-        │   └── Register.jsx
-        ├── services/   # API service layer
-        ├── App.js      # Main React component
-        └── index.js    # React entry point
-```
-
-## API Endpoints
 
 ### Authentication
 | Method | Endpoint | Description |
@@ -78,16 +41,14 @@ tusome/
 ### Payments
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| POST | `/api/payments/checkout` | Create Stripe checkout session |
-| POST | `/api/payments/webhook` | Handle Stripe webhook events |
-
+| POST | `/api/payments/checkout` | Create Mpesa STK Push|
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js (v14 or higher)
 - MongoDB (local or Atlas)
-- Stripe account (for payments)
+- Daraja Api (for payments)
 
 ### Installation
 
@@ -133,6 +94,3 @@ The application will be available at:
 ![Course Detail](./screenshots/course-detail.png) 
 ![Dashboard](./screenshots/dashboard.png) 
 ![Checkout](./screenshots/checkout.png) 
-## License
-
-MIT License
