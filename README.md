@@ -93,4 +93,5 @@ The application will be available at:
 ![Home Page](https://github.com/Mavine1/Tusome-Website/blob/main/Home.png) 
 ![Course Detail](https://github.com/Mavine1/Tusome-Website/blob/main/Courses.png) 
 ![Dashboard](https://github.com/Mavine1/Tusome-Website/blob/main/Dashboard.png) 
-![Checkout](./screenshots/checkout.png) 
+![Enroll](https://github.com/Mavine1/Tusome-Website/blob/main/Enroll.png) 
+![STK PUSH](https://github.com/Mavine1/Tusome-Website/blob/main/Subscribe.png) 
