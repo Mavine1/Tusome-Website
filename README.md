@@ -1,6 +1,6 @@
 # Tusome
 
-A full-stack MERN application for managing online courses and user subscriptions. Tusome provides a complete platform for browsing courses, user authentication, and subscription management.
+A MERN application for managing online courses and user subscriptions. Tusome provides a complete platform for browsing courses, user authentication, and subscription management.
 
 ## Tech Stack
 
