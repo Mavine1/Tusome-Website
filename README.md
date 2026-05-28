@@ -109,23 +109,6 @@ tusome/
    npm install
    ```
 
-4. **Configure environment variables**
-
-   Create a `.env` file in the `backend` directory:
-   ```env
-   PORT=5000
-   MONGO_URI=mongodb://localhost:27017/tusome
-   JWT_SECRET=your-secret-key
-   STRIPE_SECRET_KEY=sk_test_...
-   STRIPE_WEBHOOK_SECRET=whsec_...
-   ```
-
-5. **(Optional) Seed the database**
-   ```bash
-   cd backend
-   node seed.js
-   ```
-
 ### Running the Application
 
 **Start the backend server:**
@@ -146,13 +129,10 @@ The application will be available at:
 
 ## Screenshots
 
-| Page | Description |
-|------|-------------|
-| ![Home Page](./screenshots/home.png) | Homepage with course listings |
-| ![Course Detail](./screenshots/course-detail.png) | Individual course details |
-| ![Dashboard](./screenshots/dashboard.png) | User dashboard with subscriptions |
-| ![Checkout](./screenshots/checkout.png) | Stripe checkout integration |
-
+![Home Page](./screenshots/home.png) 
+![Course Detail](./screenshots/course-detail.png) 
+![Dashboard](./screenshots/dashboard.png) 
+![Checkout](./screenshots/checkout.png) 
 ## License
 
 MIT License
