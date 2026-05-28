@@ -34,7 +34,7 @@ export default function CourseDetail() {
           </div>
           <div className="mt-6">
             <h2 className="text-xl font-semibold text-green-700">Course Details</h2>
-            <p>⭐ 4.9 (5.7k Reviews) &nbsp;|&nbsp; 📚 40 Lessons &nbsp;|&nbsp; 📝 10 Assignments</p>
+            <p>4.9 (5.7k Reviews) &nbsp;|&nbsp; 40 Lessons &nbsp;|&nbsp; 10 Assignments</p>
             <p>Last Update: 27 May 2025</p>
           </div>
           <div className="mt-6">
